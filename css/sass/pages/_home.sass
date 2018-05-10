@@ -1,3 +1,5 @@
+$gold: #e8b968
+
 *
 	box-sizing: border-box
 
@@ -5,7 +7,7 @@ body
 	padding: 0
 	margin: 0
 	font-family: 'Lora', serif
-
+	height: 4000px
 
 
 .hero-section
@@ -14,19 +16,17 @@ body
 	margin: 0
 	background-size: cover
 	background-position: center, center
-	position: absolute
+	position: relative
 	width: 100%
-	h1
+	.contint
+		position: absolute
+		top: 30%
+		left: 50%
+		transform: translate(-50%, -50%)
 		text-align: center
 		color: #fff
-		margin-top: 250px
+	h1
 		margin-bottom: 30px
-	span
-		position: absolute
-		left: 50%
-		transform: translate(-50%)
-		color: #fff	
-		text-align: center
 	img
 		position: absolute
 		top: 50%
@@ -44,3 +44,41 @@ body
 		left: 50%
 		transform: translate(-50%)
 		bottom: 50px
+
+.min-ipad
+	background: $gold
+	color: #fff
+	position: relative
+	padding: 50px 0
+	padding-bottom: 170px
+	h3
+		margin-bottom: 35px
+		font-size: 34px
+	button
+		background: $gold
+		padding: 10px 40px
+		border: 3px solid #fff
+		border-radius: 3px
+		margin-top: 35px
+	.imge
+		position: absolute
+		top: 10px
+		right: 350px
+
+	.opacity
+		opacity: 0.1
+		position: absolute
+
+	.ipad
+		position: absolute
+		top: 8px
+		left: 15px
+
+
+		
+.slider
+	height: 300px
+	background: #ccc
+	z-index: 9999
+	
+
