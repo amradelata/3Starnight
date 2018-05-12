@@ -199,4 +199,46 @@ body {
     margin-top: 200px;
     text-transform: uppercase; }
 
+@media (max-width: 480px) {
+  .hero-section img {
+    top: 70%; }
+
+  .hero-section button {
+    padding: 10px 40px; }
+
+  .min-ipad {
+    height: 1500px; }
+
+  .min-ipad .ipad {
+    left: 60px;
+    top: 25px; }
+
+  .min-ipad .opacity {
+    top: 15px;
+    left: 50px; }
+
+  .paragraph p {
+    padding-right: 0; }
+
+  .slider {
+    margin-top: 0; }
+
+  .slider .cards .card {
+    flex-basis: calc(100% - 20px); }
+
+  .right-content h1 {
+    margin-bottom: 50px;
+    margin-top: 50px; }
+
+  .foter p {
+    margin-bottom: 50px; }
+
+  .fa-angle-right:before {
+    bottom: -77px;
+    left: 100px; }
+
+  .fa-angle-left:before {
+    bottom: -77px;
+    left: 70px; } }
+
 /*# sourceMappingURL=style.css.map */
