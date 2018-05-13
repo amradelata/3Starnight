@@ -239,6 +239,9 @@ body {
 
   .fa-angle-left:before {
     bottom: -77px;
-    left: 70px; } }
+    left: 70px; }
+
+  .center {
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
