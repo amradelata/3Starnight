@@ -21,11 +21,17 @@ body {
   width: 100%; }
   .hero-section .contint {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff; }
+    .hero-section .contint .playImg{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    }
   .hero-section h1 {
     margin-bottom: 30px;
     font-size: 60px; }
