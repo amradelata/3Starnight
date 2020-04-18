@@ -248,6 +248,10 @@ body {
     left: 70px; }
 
   .center {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; } 
+  .herobtn{
+    display: none;
+  }
+  }
 
 /*# sourceMappingURL=style.css.map */
