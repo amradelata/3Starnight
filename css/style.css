@@ -205,7 +205,10 @@ body {
     margin-top: 200px;
     text-transform: uppercase; }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .catusal{
+    display: none;
+  }
   .hero-section img {
     top: 70%; }
 
